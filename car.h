@@ -9,7 +9,10 @@ class Car
         int m_posy;
         int m_speedx;
         int m_speedy;
-        int m_color;
+
+    public :
+        Car(int _idx);
+
 
 };
 #endif // CAR_H_INCLUDED
